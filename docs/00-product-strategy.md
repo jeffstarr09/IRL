@@ -303,3 +303,54 @@ Honestly: nothing technical. Time Out can add "share to friends," Partiful can a
 
 1. **The name.** See above — check trademark and reputation on "IRL."
 2. **Native iOS vs. PWA.** Contacts import, calendar, and push all hinge on it. My lean: Expo (native iOS) for the app, plain web for link pages.
+
+---
+
+# Addendum v0.1 — tone, the personal link, and launch posture
+
+*Revises §7, §20, §30, and §32 above. Where they conflict, this wins.*
+
+## Humor is armor
+
+The biggest risk in §6 was stigma: "I'm free" reads as "nobody wants me." The fix isn't to soften the language — it's to make it a bit. An ironic-corporate voice lets someone send a vulnerable message ("I'd like to see people more") with zero exposure:
+
+> "I've been terrible at making plans so I made office hours. Book me."
+
+Rule: **ironic-corporate tone, human mechanics.** The surface is deadpan scheduling-software parody — openings, slots, "book a hang," "your hang has been scheduled, attendance is mandatory." The structure underneath is unchanged: explicit open blocks only, visibility = invitation, nothing inferred. §30's ban on "Book" is lifted; the ban on *feeling* like Calendly is not — the joke only works if the real experience is warm and effortless.
+
+The vocabulary should stay light enough to drop the bit instantly when something is sincere (a booking confirmation with a friend's name on it is not a joke).
+
+## The wedge is a personal link
+
+Replaces the one-page-per-plan experiment in §32. One reusable link per person:
+
+1. Claim a link (`/jeff`) and mark open blocks for the week. Target: 30 seconds.
+2. Share it into a group chat with the bit.
+3. Recipient taps — no install — sees a face, a few open blocks, and **Book Jeff**. Taps a block, types what ("coffee at Sey?"), enters a phone number. Target: 5 seconds.
+4. Both parties get a text; .ics for both calendars.
+5. Under the confirmation: *Want your own office hours? →*
+
+Every use exposes a non-user to the product at the moment it delivered value to them. This is Calendly's growth loop applied to friendship, and it is the "memorable calendar-sharing moment" the product needs.
+
+What this means for scope: the link page and the compose-your-week screen are the MVP. The week view with friends overlaid (§21) is the second thing, built only after links are being shared and booked.
+
+## Launch posture
+
+- The product ships under its own name, not the founder's. Founder identity is optional forever.
+- But the product cannot be validated on strangers first. Its value is the existing graph, so first usage is the founder's own link in the founder's own group chats. Anonymous product, personal usage.
+- "Try my app" is an obligation-ask and predictably fails. "Here's when I'm free" is a value-link and cannot fail in a humiliating way — the worst case is an ordinary Saturday.
+
+## Retention, stated honestly
+
+Weekly, not daily. Sunday-night "set your hours" nudge; mid-week "someone booked you" is the hook, and it's a real-world one. If the product needs daily engagement to survive, it is the wrong product.
+
+## Metrics for the link experiment
+
+- Links claimed → links shared (are people willing to send it?)
+- Link views → bookings (does the recipient experience convert?)
+- Bookings → "want your own?" claims (does the loop close?)
+- Bookings that actually happened (ask; it's a small number of people)
+
+## Naming direction
+
+The bit needs a name that tells the joke by itself. Candidates in the "office hours / openings / book me" family. Not "IRL" (see top of doc). Check availability before attaching to anything.
