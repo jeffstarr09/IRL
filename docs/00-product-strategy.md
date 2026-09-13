@@ -354,3 +354,34 @@ Weekly, not daily. Sunday-night "set your hours" nudge; mid-week "someone booked
 ## Naming direction
 
 The bit needs a name that tells the joke by itself. Candidates in the "office hours / openings / book me" family. Not "IRL" (see top of doc). Check availability before attaching to anything.
+
+---
+
+# Addendum v0.2 — the name, and Book Me as the calendar
+
+**Working name: Book Me.** Tells the joke by itself and doubles as the call to action.
+
+## Position: the calendar of possibilities, growing into the calendar of everything
+
+Default calendars (Google, Apple) show commitments. No calendar people use can represent *possibilities* — open time, a friend's openings, a plan you could join. Those are the social objects of personal life, and they have no home. That is the hole. Meta's attempt (Facebook Events) decayed inside a feed product; a social calendar can't be built by a feed company.
+
+How the incumbents actually won: Outlook by owning the objects (meetings) — the grid is just the view; Meta by owning the graph and the objects that flow through it. Beautiful calendar grids without owned objects are the graveyard (Sunrise, Tempo). **Own the objects and the graph; the grid is the view.**
+
+Study Howbout (shared friend-group calendar) — the closest live product.
+
+## Sequencing
+
+1. **v0 — your week of openings.** A week grid with open blocks. This is already the calendar.
+2. **v0 — bookings land on it.** Both parties. The booker's first calendar is not empty: it has the booking on it, then "add your openings?" This resolves the empty-calendar risk (§25).
+3. **v1 — friends' openings overlaid on your week.** The graph half.
+4. **v2 — busy time read in from other calendars.** The everything half; earned after trust. Now Book Me can be the calendar you check.
+
+.ics / calendar write-out stays as plumbing (never let a user double-book), not as the product story. A booking lives in Book Me.
+
+## The build implication: one component
+
+There is one core component, **the week**, rendering open blocks and plans. Your own week = edit mode. `/handle` = public mode with Book. Friends' overlay = the same component with merged data. Build it once, well, first. Everything else is permissions and data.
+
+## Platform
+
+v0 is entirely web (the link must open in a browser; the week is a web component). Web-first now, native later when contacts and push matter. Reverses the Expo lean in §27.
